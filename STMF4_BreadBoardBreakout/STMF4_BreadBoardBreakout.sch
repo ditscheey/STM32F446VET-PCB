@@ -32,7 +32,7 @@ Wire Wire Line
 	9650 800  9750 800 
 Connection ~ 9650 800 
 $Comp
-L MCU_ST_STM32F4:STM32F446VETx U1
+L STMF4_BreadBoardBreakout-rescue:STM32F446VETx-MCU_ST_STM32F4 U1
 U 1 1 5F4A0EBE
 P 9750 3500
 F 0 "U1" H 10100 625 50  0000 C CNN
@@ -46,23 +46,23 @@ Wire Wire Line
 	9550 800  9450 800 
 Connection ~ 9550 800 
 $Comp
-L Device:Fuse F1
+L STMF4_BreadBoardBreakout-rescue:Fuse-Device F1
 U 1 1 5F4C1BFA
 P 1450 1250
 F 0 "F1" V 1253 1250 50  0000 C CNN
 F 1 "500mA (max)" V 1344 1250 50  0000 C CNN
-F 2 "" V 1380 1250 50  0001 C CNN
+F 2 "Fuse:Fuse_1206_3216Metric" V 1380 1250 50  0001 C CNN
 F 3 "~" H 1450 1250 50  0001 C CNN
 	1    1450 1250
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:D_Schottky D1
+L STMF4_BreadBoardBreakout-rescue:D_Schottky-Device D1
 U 1 1 5F4C315F
 P 1100 1250
 F 0 "D1" H 1100 1034 50  0000 C CNN
 F 1 "todo" H 1100 1125 50  0000 C CNN
-F 2 "Diode_THT:D_DO-15_P10.16mm_Horizontal" H 1100 1250 50  0001 C CNN
+F 2 "Diode_SMD:D_0603_1608Metric" H 1100 1250 50  0001 C CNN
 F 3 "~" H 1100 1250 50  0001 C CNN
 	1    1100 1250
 	-1   0    0    1   
@@ -72,7 +72,7 @@ Wire Wire Line
 Wire Wire Line
 	3050 1250 3150 1250
 $Comp
-L Device:R_Small R1
+L STMF4_BreadBoardBreakout-rescue:R_Small-Device R1
 U 1 1 5F4D9A83
 P 3150 1350
 F 0 "R1" H 3209 1396 50  0000 L CNN
@@ -84,7 +84,7 @@ F 3 "~" H 3150 1350 50  0001 C CNN
 $EndComp
 Connection ~ 3150 1250
 $Comp
-L Device:R_Small R2
+L STMF4_BreadBoardBreakout-rescue:R_Small-Device R2
 U 1 1 5F4DAF2E
 P 3150 1550
 F 0 "R2" H 3209 1596 50  0000 L CNN
@@ -98,12 +98,12 @@ Wire Wire Line
 	3050 1450 3150 1450
 Connection ~ 3150 1450
 $Comp
-L SGM2019:SGM2019-ADJYN5G-TR IC1
+L STMF4_BreadBoardBreakout-rescue:SGM2019-ADJYN5G-TR-SGM2019 IC1
 U 1 1 5F4AA8A3
 P 1950 1250
 F 0 "IC1" H 2500 1515 50  0000 C CNN
 F 1 "SGM2019-ADJYN5G-TR" H 2500 1424 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-23-5_HandSoldering" H 2900 1350 50  0001 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-5" H 2900 1350 50  0001 L CNN
 F 3 "http://data.datasheetlib.com/pdf1/64/32/643295/sg-micro-sgm2019-0-9yc5g-tr_6b039c206a.pdf" H 2900 1250 50  0001 L CNN
 F 4 "Low Power, Low Dropout, RF - Linear Regulators" H 2900 1150 50  0001 L CNN "Description"
 F 5 "1.25" H 2900 1050 50  0001 L CNN "Height"
@@ -117,7 +117,7 @@ F 11 "" H 2900 450 50  0001 L CNN "Mouser Price/Stock"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR09
+L STMF4_BreadBoardBreakout-rescue:GND-power #PWR09
 U 1 1 5F4DEAF9
 P 2450 1750
 F 0 "#PWR09" H 2450 1500 50  0001 C CNN
@@ -135,7 +135,7 @@ Wire Wire Line
 Wire Wire Line
 	950  1250 850  1250
 $Comp
-L power:+3.3V #PWR015
+L STMF4_BreadBoardBreakout-rescue:+3.3V-power #PWR015
 U 1 1 5F4E4C33
 P 3600 1250
 F 0 "#PWR015" H 3600 1100 50  0001 C CNN
@@ -152,53 +152,53 @@ Text Notes 850  1900 0    50   ~ 10
 Wire Wire Line
 	1600 1250 1650 1250
 $Comp
-L Device:C_Small C4
+L STMF4_BreadBoardBreakout-rescue:C_Small-Device C4
 U 1 1 5F4F4E7B
 P 1650 1350
 F 0 "C4" H 1742 1396 50  0000 L CNN
 F 1 "1u" H 1742 1305 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 1650 1350 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 1650 1350 50  0001 C CNN
 F 3 "~" H 1650 1350 50  0001 C CNN
 	1    1650 1350
 	1    0    0    -1  
 $EndComp
 Connection ~ 1650 1250
 $Comp
-L Device:C_Small C9
+L STMF4_BreadBoardBreakout-rescue:C_Small-Device C9
 U 1 1 5F4F5E38
 P 3600 1350
 F 0 "C9" H 3692 1396 50  0000 L CNN
 F 1 "1u" H 3692 1305 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3600 1350 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 3600 1350 50  0001 C CNN
 F 3 "~" H 3600 1350 50  0001 C CNN
 	1    3600 1350
 	1    0    0    -1  
 $EndComp
 Connection ~ 3600 1250
 $Comp
-L Device:C_Small C10
+L STMF4_BreadBoardBreakout-rescue:C_Small-Device C10
 U 1 1 5F4F694D
 P 5150 1225
 F 0 "C10" H 5242 1271 50  0000 L CNN
 F 1 "100nF" H 5242 1180 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5150 1225 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 5150 1225 50  0001 C CNN
 F 3 "~" H 5150 1225 50  0001 C CNN
 	1    5150 1225
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C12
+L STMF4_BreadBoardBreakout-rescue:C_Small-Device C12
 U 1 1 5F4F72CE
 P 6050 1225
 F 0 "C12" H 6142 1271 50  0000 L CNN
 F 1 "1nF" H 6142 1180 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6050 1225 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 6050 1225 50  0001 C CNN
 F 3 "~" H 6050 1225 50  0001 C CNN
 	1    6050 1225
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR04
+L STMF4_BreadBoardBreakout-rescue:GND-power #PWR04
 U 1 1 5F4F91E2
 P 1650 1450
 F 0 "#PWR04" H 1650 1200 50  0001 C CNN
@@ -209,7 +209,7 @@ F 3 "" H 1650 1450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR011
+L STMF4_BreadBoardBreakout-rescue:GND-power #PWR011
 U 1 1 5F4F9967
 P 3150 1750
 F 0 "#PWR011" H 3150 1500 50  0001 C CNN
@@ -220,7 +220,7 @@ F 3 "" H 3150 1750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR016
+L STMF4_BreadBoardBreakout-rescue:GND-power #PWR016
 U 1 1 5F4F9F32
 P 3600 1450
 F 0 "#PWR016" H 3600 1200 50  0001 C CNN
@@ -240,18 +240,18 @@ Wire Wire Line
 Wire Wire Line
 	1650 1250 1900 1250
 $Comp
-L Device:C_Small C11
+L STMF4_BreadBoardBreakout-rescue:C_Small-Device C11
 U 1 1 5F5026AD
 P 5600 1225
 F 0 "C11" H 5692 1271 50  0000 L CNN
 F 1 "100nF" H 5692 1180 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5600 1225 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 5600 1225 50  0001 C CNN
 F 3 "~" H 5600 1225 50  0001 C CNN
 	1    5600 1225
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR023
+L STMF4_BreadBoardBreakout-rescue:GND-power #PWR023
 U 1 1 5F504BDC
 P 5150 1325
 F 0 "#PWR023" H 5150 1075 50  0001 C CNN
@@ -262,7 +262,7 @@ F 3 "" H 5150 1325 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR026
+L STMF4_BreadBoardBreakout-rescue:GND-power #PWR026
 U 1 1 5F505336
 P 5600 1325
 F 0 "#PWR026" H 5600 1075 50  0001 C CNN
@@ -273,7 +273,7 @@ F 3 "" H 5600 1325 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR028
+L STMF4_BreadBoardBreakout-rescue:GND-power #PWR028
 U 1 1 5F5057DF
 P 6050 1325
 F 0 "#PWR028" H 6050 1075 50  0001 C CNN
@@ -289,7 +289,7 @@ Connection ~ 5600 1125
 Wire Wire Line
 	5600 1125 5150 1125
 $Comp
-L power:+3.3V #PWR022
+L STMF4_BreadBoardBreakout-rescue:+3.3V-power #PWR022
 U 1 1 5F4EDBDA
 P 5150 1125
 F 0 "#PWR022" H 5150 975 50  0001 C CNN
@@ -301,7 +301,7 @@ F 3 "" H 5150 1125 50  0001 C CNN
 $EndComp
 Connection ~ 5150 1125
 $Comp
-L power:+3.3VA #PWR027
+L STMF4_BreadBoardBreakout-rescue:+3.3VA-power #PWR027
 U 1 1 5F50B76C
 P 6050 1125
 F 0 "#PWR027" H 6050 975 50  0001 C CNN
@@ -325,56 +325,56 @@ ADC Supply\n
 Text Notes 2100 800  0    50   ~ 0
 max Iout = 500mA\nVin 2.5 - 5.5V \nDropout Voltage 0.9mV\n
 $Comp
-L Device:C_Small C3
+L STMF4_BreadBoardBreakout-rescue:C_Small-Device C3
 U 1 1 5F52E2A6
 P 1700 2525
 F 0 "C3" H 1792 2571 50  0000 L CNN
 F 1 "100nF" H 1792 2480 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 1700 2525 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 1700 2525 50  0001 C CNN
 F 3 "~" H 1700 2525 50  0001 C CNN
 	1    1700 2525
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C2
+L STMF4_BreadBoardBreakout-rescue:C_Small-Device C2
 U 1 1 5F52E2B2
 P 1300 2525
 F 0 "C2" H 1392 2571 50  0000 L CNN
 F 1 "100nF" H 1392 2480 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 1300 2525 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 1300 2525 50  0001 C CNN
 F 3 "~" H 1300 2525 50  0001 C CNN
 	1    1300 2525
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C6
+L STMF4_BreadBoardBreakout-rescue:C_Small-Device C6
 U 1 1 5F5307CB
 P 2500 2525
 F 0 "C6" H 2592 2571 50  0000 L CNN
 F 1 "100nF" H 2592 2480 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 2500 2525 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 2500 2525 50  0001 C CNN
 F 3 "~" H 2500 2525 50  0001 C CNN
 	1    2500 2525
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C7
+L STMF4_BreadBoardBreakout-rescue:C_Small-Device C7
 U 1 1 5F5307D1
 P 2900 2525
 F 0 "C7" H 2992 2571 50  0000 L CNN
 F 1 "100nF" H 2992 2480 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 2900 2525 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 2900 2525 50  0001 C CNN
 F 3 "~" H 2900 2525 50  0001 C CNN
 	1    2900 2525
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C5
+L STMF4_BreadBoardBreakout-rescue:C_Small-Device C5
 U 1 1 5F5307D7
 P 2100 2525
 F 0 "C5" H 2192 2571 50  0000 L CNN
 F 1 "100nF" H 2192 2480 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 2100 2525 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 2100 2525 50  0001 C CNN
 F 3 "~" H 2100 2525 50  0001 C CNN
 	1    2100 2525
 	1    0    0    -1  
@@ -386,12 +386,12 @@ Wire Wire Line
 Wire Wire Line
 	3350 2675 2900 2675
 $Comp
-L Device:C_Small C1
+L STMF4_BreadBoardBreakout-rescue:C_Small-Device C1
 U 1 1 5F52E29A
 P 900 2525
 F 0 "C1" H 992 2571 50  0000 L CNN
 F 1 "100nF" H 992 2480 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 900 2525 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 900 2525 50  0001 C CNN
 F 3 "~" H 900 2525 50  0001 C CNN
 	1    900  2525
 	1    0    0    -1  
@@ -439,12 +439,12 @@ Connection ~ 2500 2675
 Wire Wire Line
 	2500 2675 2100 2675
 $Comp
-L Device:C_Small C8
+L STMF4_BreadBoardBreakout-rescue:C_Small-Device C8
 U 1 1 5F542C1B
 P 3350 2525
 F 0 "C8" H 3442 2571 50  0000 L CNN
 F 1 "10u" H 3442 2480 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3350 2525 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 3350 2525 50  0001 C CNN
 F 3 "~" H 3350 2525 50  0001 C CNN
 	1    3350 2525
 	1    0    0    -1  
@@ -460,7 +460,7 @@ Connection ~ 2900 2675
 Wire Wire Line
 	2900 2675 2500 2675
 $Comp
-L power:GND #PWR06
+L STMF4_BreadBoardBreakout-rescue:GND-power #PWR06
 U 1 1 5F56D496
 P 2100 2675
 F 0 "#PWR06" H 2100 2425 50  0001 C CNN
@@ -471,7 +471,7 @@ F 3 "" H 2100 2675 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR05
+L STMF4_BreadBoardBreakout-rescue:+3.3V-power #PWR05
 U 1 1 5F56DDD6
 P 2100 2375
 F 0 "#PWR05" H 2100 2225 50  0001 C CNN
@@ -496,18 +496,18 @@ vCAP_1
 Text GLabel 7875 1075 1    50   Input ~ 0
 vCAP_1
 $Comp
-L Device:C_Small C17
+L STMF4_BreadBoardBreakout-rescue:C_Small-Device C17
 U 1 1 5F5860D1
 P 7875 1175
 F 0 "C17" H 7967 1221 50  0000 L CNN
 F 1 "2.2uF" H 7967 1130 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7875 1175 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 7875 1175 50  0001 C CNN
 F 3 "~" H 7875 1175 50  0001 C CNN
 	1    7875 1175
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR033
+L STMF4_BreadBoardBreakout-rescue:GND-power #PWR033
 U 1 1 5F58657C
 P 7475 1275
 F 0 "#PWR033" H 7475 1025 50  0001 C CNN
@@ -518,7 +518,7 @@ F 3 "" H 7475 1275 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR035
+L STMF4_BreadBoardBreakout-rescue:GND-power #PWR035
 U 1 1 5F5870EB
 P 7875 1275
 F 0 "#PWR035" H 7875 1025 50  0001 C CNN
@@ -535,18 +535,18 @@ HSE_IN
 Text GLabel 6800 2450 2    50   Input ~ 0
 HSE_OUT
 $Comp
-L Device:Crystal Y1
+L STMF4_BreadBoardBreakout-rescue:Crystal-Device Y1
 U 1 1 5F58C80F
 P 6300 2450
 F 0 "Y1" H 6300 2225 50  0000 C CNN
 F 1 "Crystal" H 6300 2300 50  0000 C CNN
-F 2 "Crystal:Crystal_DS15_D1.5mm_L5.0mm_Horizontal" H 6300 2450 50  0001 C CNN
+F 2 "Crystal:Crystal_SMD_7050-4Pin_7.0x5.0mm" H 6300 2450 50  0001 C CNN
 F 3 "~" H 6300 2450 50  0001 C CNN
 	1    6300 2450
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:R_Small R8
+L STMF4_BreadBoardBreakout-rescue:R_Small-Device R8
 U 1 1 5F58DD29
 P 6700 2450
 F 0 "R8" V 6504 2450 50  0000 C CNN
@@ -557,23 +557,23 @@ F 3 "~" H 6700 2450 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:C_Small C13
+L STMF4_BreadBoardBreakout-rescue:C_Small-Device C13
 U 1 1 5F58FE05
 P 6100 2550
 F 0 "C13" H 5900 2550 50  0000 L CNN
 F 1 "10uF" H 5900 2450 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6100 2550 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 6100 2550 50  0001 C CNN
 F 3 "~" H 6100 2550 50  0001 C CNN
 	1    6100 2550
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C14
+L STMF4_BreadBoardBreakout-rescue:C_Small-Device C14
 U 1 1 5F590581
 P 6500 2550
 F 0 "C14" H 6600 2550 50  0000 L CNN
 F 1 "10uF" H 6600 2450 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6500 2550 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 6500 2550 50  0001 C CNN
 F 3 "~" H 6500 2550 50  0001 C CNN
 	1    6500 2550
 	1    0    0    -1  
@@ -589,7 +589,7 @@ Connection ~ 6100 2450
 Wire Wire Line
 	6100 2450 6000 2450
 $Comp
-L power:GND #PWR029
+L STMF4_BreadBoardBreakout-rescue:GND-power #PWR029
 U 1 1 5F597A2F
 P 6100 2650
 F 0 "#PWR029" H 6100 2400 50  0001 C CNN
@@ -600,7 +600,7 @@ F 3 "" H 6100 2650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR030
+L STMF4_BreadBoardBreakout-rescue:GND-power #PWR030
 U 1 1 5F598468
 P 6500 2650
 F 0 "#PWR030" H 6500 2400 50  0001 C CNN
@@ -621,7 +621,7 @@ SWO
 Text GLabel 3375 7325 0    50   Input ~ 0
 NRST
 $Comp
-L power:GND #PWR010
+L STMF4_BreadBoardBreakout-rescue:GND-power #PWR010
 U 1 1 5F5B661C
 P 2975 7125
 F 0 "#PWR010" H 2975 6875 50  0001 C CNN
@@ -634,7 +634,7 @@ $EndComp
 Wire Wire Line
 	2975 7125 3375 7125
 $Comp
-L power:+3.3V #PWR013
+L STMF4_BreadBoardBreakout-rescue:+3.3V-power #PWR013
 U 1 1 5F5BA5A6
 P 3375 6925
 F 0 "#PWR013" H 3375 6775 50  0001 C CNN
@@ -655,7 +655,7 @@ Wire Notes Line
 Wire Notes Line
 	2825 6675 2825 7625
 $Comp
-L Connector:Conn_01x06_Female J4
+L STMF4_BreadBoardBreakout-rescue:Conn_01x06_Female-Connector J4
 U 1 1 5F5B51B7
 P 3575 7125
 F 0 "J4" H 3603 7101 50  0000 L CNN
@@ -666,9 +666,9 @@ F 3 "~" H 3575 7125 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 6925 1125 1    50   Input ~ 0
-BOOT0
+BOOT1
 $Comp
-L Device:R_Small R9
+L STMF4_BreadBoardBreakout-rescue:R_Small-Device R9
 U 1 1 5F587F02
 P 6925 1225
 F 0 "R9" H 6984 1271 50  0000 L CNN
@@ -679,7 +679,7 @@ F 3 "~" H 6925 1225 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR032
+L STMF4_BreadBoardBreakout-rescue:GND-power #PWR032
 U 1 1 5F588E69
 P 6925 1325
 F 0 "#PWR032" H 6925 1075 50  0001 C CNN
@@ -692,7 +692,7 @@ $EndComp
 Text GLabel 6625 1125 1    50   Input ~ 0
 BOOT0
 $Comp
-L Device:R_Small R7
+L STMF4_BreadBoardBreakout-rescue:R_Small-Device R7
 U 1 1 5F59FCFE
 P 6625 1225
 F 0 "R7" H 6684 1271 50  0000 L CNN
@@ -703,7 +703,7 @@ F 3 "~" H 6625 1225 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR031
+L STMF4_BreadBoardBreakout-rescue:GND-power #PWR031
 U 1 1 5F59FD08
 P 6625 1325
 F 0 "#PWR031" H 6625 1075 50  0001 C CNN
@@ -716,7 +716,7 @@ $EndComp
 Text GLabel 4750 7075 3    50   Input ~ 0
 I2C3_SDA
 $Comp
-L Device:R_Small R5
+L STMF4_BreadBoardBreakout-rescue:R_Small-Device R5
 U 1 1 5F5CC1AA
 P 4750 6975
 F 0 "R5" H 4809 7021 50  0000 L CNN
@@ -729,7 +729,7 @@ $EndComp
 Text GLabel 4450 7075 3    50   Input ~ 0
 I2C3_SCL
 $Comp
-L Device:R_Small R4
+L STMF4_BreadBoardBreakout-rescue:R_Small-Device R4
 U 1 1 5F5CC1BF
 P 4450 6975
 F 0 "R4" H 4509 7021 50  0000 L CNN
@@ -750,7 +750,7 @@ Wire Notes Line
 Text Notes 4450 7575 0    50   ~ 10
 I2C3 PullUp\n
 $Comp
-L power:+3.3V #PWR020
+L STMF4_BreadBoardBreakout-rescue:+3.3V-power #PWR020
 U 1 1 5F5E460F
 P 4450 6875
 F 0 "#PWR020" H 4450 6725 50  0001 C CNN
@@ -761,7 +761,7 @@ F 3 "" H 4450 6875 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR021
+L STMF4_BreadBoardBreakout-rescue:+3.3V-power #PWR021
 U 1 1 5F5E4E28
 P 4750 6875
 F 0 "#PWR021" H 4750 6725 50  0001 C CNN
@@ -774,12 +774,12 @@ $EndComp
 Text Notes 6575 800  0    50   ~ 10
 Boot Config\n
 $Comp
-L Device:C_Small C15
+L STMF4_BreadBoardBreakout-rescue:C_Small-Device C15
 U 1 1 5F5853FF
 P 7475 1175
 F 0 "C15" H 7567 1221 50  0000 L CNN
 F 1 "2.2uF" H 7567 1130 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7475 1175 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 7475 1175 50  0001 C CNN
 F 3 "~" H 7475 1175 50  0001 C CNN
 	1    7475 1175
 	1    0    0    -1  
@@ -787,18 +787,18 @@ $EndComp
 Text Notes 7425 725  0    50   ~ 10
 low esr! int V Reg\n
 $Comp
-L Device:LED_Small D2
+L STMF4_BreadBoardBreakout-rescue:LED_Small-Device D2
 U 1 1 5F60E0AB
 P 3900 1250
 F 0 "D2" H 3900 1137 50  0000 C CNN
 F 1 "LED_Status" H 3900 1136 50  0001 C CNN
-F 2 "LED_THT:LED_D5.0mm" V 3900 1250 50  0001 C CNN
+F 2 "Diode_SMD:D_0603_1608Metric" V 3900 1250 50  0001 C CNN
 F 3 "~" V 3900 1250 50  0001 C CNN
 	1    3900 1250
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:R_Small R3
+L STMF4_BreadBoardBreakout-rescue:R_Small-Device R3
 U 1 1 5F6114F2
 P 4000 1350
 F 0 "R3" H 4059 1396 50  0000 L CNN
@@ -809,7 +809,7 @@ F 3 "~" H 4000 1350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR017
+L STMF4_BreadBoardBreakout-rescue:GND-power #PWR017
 U 1 1 5F611FF0
 P 4000 1450
 F 0 "#PWR017" H 4000 1200 50  0001 C CNN
@@ -828,18 +828,18 @@ Wire Notes Line
 Text GLabel 5150 2275 1    50   Input ~ 0
 LED_STATUS
 $Comp
-L Device:LED_Small D3
+L STMF4_BreadBoardBreakout-rescue:LED_Small-Device D3
 U 1 1 5F5FE8C7
 P 5150 2375
 F 0 "D3" V 5150 2307 50  0000 R CNN
 F 1 "LED_Status" H 5150 2261 50  0001 C CNN
-F 2 "LED_THT:LED_D5.0mm" V 5150 2375 50  0001 C CNN
+F 2 "Diode_SMD:D_0603_1608Metric" V 5150 2375 50  0001 C CNN
 F 3 "~" V 5150 2375 50  0001 C CNN
 	1    5150 2375
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR024
+L STMF4_BreadBoardBreakout-rescue:GND-power #PWR024
 U 1 1 5F5FB7EE
 P 5150 2675
 F 0 "#PWR024" H 5150 2425 50  0001 C CNN
@@ -850,7 +850,7 @@ F 3 "" H 5150 2675 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small R6
+L STMF4_BreadBoardBreakout-rescue:R_Small-Device R6
 U 1 1 5F5F6271
 P 5150 2575
 F 0 "R6" V 4954 2575 50  0000 C CNN
@@ -871,81 +871,7 @@ Wire Notes Line
 Wire Notes Line
 	750  500  750  2000
 $Comp
-L Mechanical:MountingHole_Pad H1
-U 1 1 5F67A8E7
-P 5750 6675
-F 0 "H1" V 5704 6825 50  0000 L CNN
-F 1 "MountingHole_Pad" V 5795 6825 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.5mm_Pad" H 5750 6675 50  0001 C CNN
-F 3 "~" H 5750 6675 50  0001 C CNN
-	1    5750 6675
-	0    1    1    0   
-$EndComp
-$Comp
-L Mechanical:MountingHole_Pad H2
-U 1 1 5F67C143
-P 5750 6875
-F 0 "H2" V 5704 7025 50  0000 L CNN
-F 1 "MountingHole_Pad" V 5795 7025 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.5mm_Pad" H 5750 6875 50  0001 C CNN
-F 3 "~" H 5750 6875 50  0001 C CNN
-	1    5750 6875
-	0    1    1    0   
-$EndComp
-$Comp
-L Mechanical:MountingHole_Pad H3
-U 1 1 5F67C40D
-P 5750 7075
-F 0 "H3" V 5704 7225 50  0000 L CNN
-F 1 "MountingHole_Pad" V 5795 7225 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.5mm_Pad" H 5750 7075 50  0001 C CNN
-F 3 "~" H 5750 7075 50  0001 C CNN
-	1    5750 7075
-	0    1    1    0   
-$EndComp
-$Comp
-L Mechanical:MountingHole_Pad H4
-U 1 1 5F67C618
-P 5750 7275
-F 0 "H4" V 5704 7425 50  0000 L CNN
-F 1 "MountingHole_Pad" V 5795 7425 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.5mm_Pad" H 5750 7275 50  0001 C CNN
-F 3 "~" H 5750 7275 50  0001 C CNN
-	1    5750 7275
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	5550 6675 5650 6675
-Wire Wire Line
-	5550 6675 5550 6875
-Wire Wire Line
-	5550 7275 5650 7275
-Wire Wire Line
-	5650 7075 5550 7075
-Connection ~ 5550 7075
-Wire Wire Line
-	5550 7075 5550 7275
-Wire Wire Line
-	5650 6875 5550 6875
-Connection ~ 5550 6875
-Wire Wire Line
-	5550 6875 5550 7075
-$Comp
-L power:GND #PWR025
-U 1 1 5F68DC18
-P 5550 7375
-F 0 "#PWR025" H 5550 7125 50  0001 C CNN
-F 1 "GND" H 5555 7202 50  0000 C CNN
-F 2 "" H 5550 7375 50  0001 C CNN
-F 3 "" H 5550 7375 50  0001 C CNN
-	1    5550 7375
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5550 7375 5550 7275
-Connection ~ 5550 7275
-$Comp
-L Connector:Conn_01x03_Male J1
+L STMF4_BreadBoardBreakout-rescue:Conn_01x03_Male-Connector J1
 U 1 1 5F6A98C8
 P 1425 3625
 F 0 "J1" H 1397 3649 50  0000 R CNN
@@ -956,7 +882,7 @@ F 3 "~" H 1425 3625 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x04_Male J5
+L STMF4_BreadBoardBreakout-rescue:Conn_01x04_Male-Connector J5
 U 1 1 5F6AB989
 P 3675 3575
 F 0 "J5" H 3647 3549 50  0000 R CNN
@@ -967,7 +893,7 @@ F 3 "~" H 3675 3575 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x06_Male J6
+L STMF4_BreadBoardBreakout-rescue:Conn_01x06_Male-Connector J6
 U 1 1 5F6AE919
 P 4675 3525
 F 0 "J6" H 4647 3499 50  0000 R CNN
@@ -982,7 +908,7 @@ I2C3_SCL
 Text GLabel 3475 3575 0    50   Input ~ 0
 I2C3_SDA
 $Comp
-L power:GND #PWR02
+L STMF4_BreadBoardBreakout-rescue:GND-power #PWR02
 U 1 1 5F6B0980
 P 1075 3725
 F 0 "#PWR02" H 1075 3475 50  0001 C CNN
@@ -993,7 +919,7 @@ F 3 "" H 1075 3725 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR014
+L STMF4_BreadBoardBreakout-rescue:+3.3V-power #PWR014
 U 1 1 5F6B7A7D
 P 3475 3425
 F 0 "#PWR014" H 3475 3275 50  0001 C CNN
@@ -1010,7 +936,7 @@ USART1_RX
 Text GLabel 1225 3525 0    50   Input ~ 0
 USART1_TX
 $Comp
-L Connector:Conn_01x03_Male J3
+L STMF4_BreadBoardBreakout-rescue:Conn_01x03_Male-Connector J3
 U 1 1 5F6E0393
 P 2575 3625
 F 0 "J3" H 2547 3649 50  0000 R CNN
@@ -1021,7 +947,7 @@ F 3 "~" H 2575 3625 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR07
+L STMF4_BreadBoardBreakout-rescue:GND-power #PWR07
 U 1 1 5F6E039D
 P 2225 3725
 F 0 "#PWR07" H 2225 3475 50  0001 C CNN
@@ -1036,7 +962,7 @@ USART2_RX
 Text GLabel 2375 3525 0    50   Input ~ 0
 USART2_TX
 $Comp
-L power:GND #PWR012
+L STMF4_BreadBoardBreakout-rescue:GND-power #PWR012
 U 1 1 5F6E6D1C
 P 3275 3775
 F 0 "#PWR012" H 3275 3525 50  0001 C CNN
@@ -1053,7 +979,7 @@ Wire Wire Line
 Wire Wire Line
 	2225 3725 2375 3725
 $Comp
-L power:+3.3V #PWR019
+L STMF4_BreadBoardBreakout-rescue:+3.3V-power #PWR019
 U 1 1 5F6F829F
 P 4375 3275
 F 0 "#PWR019" H 4375 3125 50  0001 C CNN
@@ -1064,7 +990,7 @@ F 3 "" H 4375 3275 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR018
+L STMF4_BreadBoardBreakout-rescue:GND-power #PWR018
 U 1 1 5F6F8861
 P 4325 3825
 F 0 "#PWR018" H 4325 3575 50  0001 C CNN
@@ -1105,7 +1031,7 @@ Connection ~ 9950 6200
 Wire Wire Line
 	9950 6200 9850 6200
 $Comp
-L power:GND #PWR036
+L STMF4_BreadBoardBreakout-rescue:GND-power #PWR036
 U 1 1 5F722016
 P 9800 6200
 F 0 "#PWR036" H 9800 5950 50  0001 C CNN
@@ -1133,7 +1059,7 @@ no pullups etc required  (internal pull-up resistors , AN4879)\n
 Text Notes 8675 6950 0    50   ~ 0
 todo check again\n\n
 $Comp
-L power:+5V #PWR01
+L STMF4_BreadBoardBreakout-rescue:+5V-power #PWR01
 U 1 1 5F766AE4
 P 850 1250
 F 0 "#PWR01" H 850 1100 50  0001 C CNN
@@ -1155,14 +1081,6 @@ Text Notes 775  3125 0    50   ~ 10
 Connectors\n
 Wire Notes Line
 	650  7625 650  6175
-Wire Notes Line
-	5400 6525 5400 7625
-Wire Notes Line
-	5400 7625 6700 7625
-Wire Notes Line
-	6700 7625 6700 6525
-Wire Notes Line
-	5400 6525 6700 6525
 Wire Notes Line
 	750  2925 3600 2925
 Wire Notes Line
@@ -1204,7 +1122,7 @@ Wire Notes Line
 Text Notes 7500 2275 0    50   ~ 10
 Debouncing RST\n\n
 $Comp
-L power:GND #PWR034
+L STMF4_BreadBoardBreakout-rescue:GND-power #PWR034
 U 1 1 5F74D156
 P 7700 2675
 F 0 "#PWR034" H 7700 2425 50  0001 C CNN
@@ -1215,12 +1133,12 @@ F 3 "" H 7700 2675 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C16
+L STMF4_BreadBoardBreakout-rescue:C_Small-Device C16
 U 1 1 5F74C9C3
 P 7700 2575
 F 0 "C16" H 7792 2621 50  0000 L CNN
 F 1 "100nF" H 7792 2530 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7700 2575 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 7700 2575 50  0001 C CNN
 F 3 "~" H 7700 2575 50  0001 C CNN
 	1    7700 2575
 	1    0    0    -1  
@@ -1346,7 +1264,7 @@ USB_FS_DP
 Text Notes 700  7475 0    50   ~ 0
 possible esd protection: USBLC6-2SC6
 $Comp
-L power:+5V #PWR03
+L STMF4_BreadBoardBreakout-rescue:+5V-power #PWR03
 U 1 1 5F764202
 P 1550 6675
 F 0 "#PWR03" H 1550 6525 50  0001 C CNN
@@ -1359,12 +1277,12 @@ $EndComp
 NoConn ~ 1950 6675
 NoConn ~ 2150 7075
 $Comp
-L Connector:USB_B_Micro J2
+L STMF4_BreadBoardBreakout-rescue:USB_B_Micro-Connector J2
 U 1 1 5F753253
 P 1750 6975
 F 0 "J2" V 1853 7305 50  0000 L CNN
 F 1 "USB_B_Micro" V 1762 7305 50  0000 L CNN
-F 2 "Connector_USB:USB_Micro-B_Amphenol_10103594-0001LF_Horizontal" H 1900 6925 50  0001 C CNN
+F 2 "Connector_USB:USB_Micro-B_Wuerth_629105150521" H 1900 6925 50  0001 C CNN
 F 3 "~" H 1900 6925 50  0001 C CNN
 	1    1750 6975
 	0    -1   -1   0   
@@ -1374,7 +1292,7 @@ USB host -side cap <= 10uF Micro USB \n\n
 Wire Wire Line
 	2150 6975 2250 6975
 $Comp
-L power:GND #PWR08
+L STMF4_BreadBoardBreakout-rescue:GND-power #PWR08
 U 1 1 5F70CBEE
 P 2250 6975
 F 0 "#PWR08" H 2250 6725 50  0001 C CNN
@@ -1403,7 +1321,7 @@ Wire Notes Line
 Text Notes 775  4250 0    50   ~ 10
 BreadBoard Connection\n
 $Comp
-L Connector:Conn_01x16_Male J7
+L STMF4_BreadBoardBreakout-rescue:Conn_01x16_Male-Connector J7
 U 1 1 5F9756AB
 P 775 5250
 F 0 "J7" H 875 6175 50  0000 C CNN
@@ -1414,7 +1332,7 @@ F 3 "~" H 775 5250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x16_Male J9
+L STMF4_BreadBoardBreakout-rescue:Conn_01x16_Male-Connector J9
 U 1 1 5F97A6F2
 P 3075 5225
 F 0 "J9" H 3183 6175 50  0000 C CNN
@@ -1425,7 +1343,7 @@ F 3 "~" H 3075 5225 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x16_Male J10
+L STMF4_BreadBoardBreakout-rescue:Conn_01x16_Male-Connector J10
 U 1 1 5F97BA8B
 P 4100 5225
 F 0 "J10" H 4208 6175 50  0000 C CNN
@@ -1436,12 +1354,12 @@ F 3 "~" H 4100 5225 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x16_Male J11
+L STMF4_BreadBoardBreakout-rescue:Conn_01x16_Male-Connector J11
 U 1 1 5F97C6F5
 P 4975 5225
 F 0 "J11" H 5100 6150 50  0000 C CNN
 F 1 "PORT E" H 5100 6050 50  0000 C CNB
-F 2 "Connector_PinHeader_1.27mm:PinHeader_1x16_P1.27mm_Vertical" H 4975 5225 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x16_P2.54mm_Vertical" H 4975 5225 50  0001 C CNN
 F 3 "~" H 4975 5225 50  0001 C CNN
 	1    4975 5225
 	1    0    0    -1  
@@ -1664,7 +1582,7 @@ NoConn ~ 975  5850
 NoConn ~ 975  5950
 NoConn ~ 2125 6025
 $Comp
-L Connector:Conn_01x16_Male J8
+L STMF4_BreadBoardBreakout-rescue:Conn_01x16_Male-Connector J8
 U 1 1 5F97834A
 P 1925 5225
 F 0 "J8" H 2025 6175 50  0000 C CNN
@@ -1682,10 +1600,259 @@ Wire Notes Line
 	650  6125 650  4150
 Wire Notes Line
 	650  4150 5450 4150
-Text Notes 6200 3725 0    50   ~ 0
+Text Notes 7550 5100 0    50   ~ 10
 DCMI for camera\n
-Text Notes 6175 4375 0    50   ~ 0
-RESET + PUSHBUTTON
-Text Notes 6175 5400 0    50   ~ 0
+Text Notes 5800 6900 0    50   ~ 10
 testpoints\n
+$Comp
+L Connector_Generic:Conn_02x09_Odd_Even J12
+U 1 1 5F4CB7AB
+P 7700 5600
+F 0 "J12" V 7704 6080 50  0000 L CNN
+F 1 "DCMI SPI CAM" V 7795 6080 50  0000 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_2x09_P2.54mm_Vertical_SMD" H 7700 5600 50  0001 C CNN
+F 3 "~" H 7700 5600 50  0001 C CNN
+	1    7700 5600
+	0    -1   1    0   
+$EndComp
+$Comp
+L Switch:SW_Push SW1
+U 1 1 5F4E3FE2
+P 7050 4150
+F 0 "SW1" V 7004 4298 50  0000 L CNN
+F 1 "BTN_NRST" V 7095 4298 50  0000 L CNN
+F 2 "Button_Switch_SMD:SW_SPST_SKQG_WithStem" H 7050 4350 50  0001 C CNN
+F 3 "~" H 7050 4350 50  0001 C CNN
+	1    7050 4150
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_Push SW2
+U 1 1 5F4E4768
+P 8150 4150
+F 0 "SW2" V 8100 3700 50  0000 L CNN
+F 1 "BTN_UTIL1" V 8200 3700 50  0000 L CNN
+F 2 "Button_Switch_SMD:SW_SPST_SKQG_WithStem" H 8150 4350 50  0001 C CNN
+F 3 "~" H 8150 4350 50  0001 C CNN
+	1    8150 4150
+	0    1    1    0   
+$EndComp
+$Comp
+L STMF4_BreadBoardBreakout-rescue:R_Small-Device R11
+U 1 1 5F4F06AA
+P 7050 3850
+F 0 "R11" V 6854 3850 50  0000 C CNN
+F 1 "1k" V 6945 3850 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7050 3850 50  0001 C CNN
+F 3 "~" H 7050 3850 50  0001 C CNN
+	1    7050 3850
+	-1   0    0    1   
+$EndComp
+$Comp
+L STMF4_BreadBoardBreakout-rescue:R_Small-Device R13
+U 1 1 5F4F0D51
+P 8150 3850
+F 0 "R13" V 7954 3850 50  0000 C CNN
+F 1 "1k" V 8045 3850 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 8150 3850 50  0001 C CNN
+F 3 "~" H 8150 3850 50  0001 C CNN
+	1    8150 3850
+	1    0    0    1   
+$EndComp
+Text Notes 7350 3150 0    50   ~ 10
+Buttons\nwith debouncing
+$Comp
+L STMF4_BreadBoardBreakout-rescue:+3.3V-power #PWR0101
+U 1 1 5F557A47
+P 7050 3200
+F 0 "#PWR0101" H 7050 3050 50  0001 C CNN
+F 1 "+3.3V" H 7065 3373 50  0000 C CNN
+F 2 "" H 7050 3200 50  0001 C CNN
+F 3 "" H 7050 3200 50  0001 C CNN
+	1    7050 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L STMF4_BreadBoardBreakout-rescue:+3.3V-power #PWR0102
+U 1 1 5F5709C4
+P 8150 3200
+F 0 "#PWR0102" H 8150 3050 50  0001 C CNN
+F 1 "+3.3V" H 8165 3373 50  0000 C CNN
+F 2 "" H 8150 3200 50  0001 C CNN
+F 3 "" H 8150 3200 50  0001 C CNN
+	1    8150 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L STMF4_BreadBoardBreakout-rescue:C_Small-Device C18
+U 1 1 5F571145
+P 7400 3600
+F 0 "C18" H 7500 3600 50  0000 L CNN
+F 1 "10uF" H 7500 3500 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 7400 3600 50  0001 C CNN
+F 3 "~" H 7400 3600 50  0001 C CNN
+	1    7400 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L STMF4_BreadBoardBreakout-rescue:GND-power #PWR0103
+U 1 1 5F5719CF
+P 7400 3700
+F 0 "#PWR0103" H 7400 3450 50  0001 C CNN
+F 1 "GND" H 7405 3527 50  0000 C CNN
+F 2 "" H 7400 3700 50  0001 C CNN
+F 3 "" H 7400 3700 50  0001 C CNN
+	1    7400 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L STMF4_BreadBoardBreakout-rescue:C_Small-Device C19
+U 1 1 5F59CFCA
+P 7750 3600
+F 0 "C19" H 7850 3600 50  0000 L CNN
+F 1 "10uF" H 7850 3500 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 7750 3600 50  0001 C CNN
+F 3 "~" H 7750 3600 50  0001 C CNN
+	1    7750 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L STMF4_BreadBoardBreakout-rescue:GND-power #PWR0104
+U 1 1 5F59CFD4
+P 7750 3700
+F 0 "#PWR0104" H 7750 3450 50  0001 C CNN
+F 1 "GND" H 7755 3527 50  0000 C CNN
+F 2 "" H 7750 3700 50  0001 C CNN
+F 3 "" H 7750 3700 50  0001 C CNN
+	1    7750 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L STMF4_BreadBoardBreakout-rescue:R_Small-Device R10
+U 1 1 5F5C01EA
+P 7050 3300
+F 0 "R10" V 6854 3300 50  0000 C CNN
+F 1 "10k" V 6945 3300 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7050 3300 50  0001 C CNN
+F 3 "~" H 7050 3300 50  0001 C CNN
+	1    7050 3300
+	-1   0    0    1   
+$EndComp
+$Comp
+L STMF4_BreadBoardBreakout-rescue:R_Small-Device R12
+U 1 1 5F5C076D
+P 8150 3300
+F 0 "R12" V 7954 3300 50  0000 C CNN
+F 1 "10k" V 8045 3300 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 8150 3300 50  0001 C CNN
+F 3 "~" H 8150 3300 50  0001 C CNN
+	1    8150 3300
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7050 3400 7050 3500
+Wire Wire Line
+	7050 3500 7400 3500
+Wire Wire Line
+	7050 3500 7050 3750
+Connection ~ 7050 3500
+Wire Wire Line
+	8150 3400 8150 3500
+Wire Wire Line
+	8150 3500 7750 3500
+Wire Wire Line
+	8150 3750 8150 3500
+Connection ~ 8150 3500
+Wire Notes Line
+	8400 2950 8400 4700
+Wire Notes Line
+	8400 4700 6900 4700
+Wire Notes Line
+	6900 4700 6900 2950
+Wire Notes Line
+	6900 2950 8400 2950
+$Comp
+L STMF4_BreadBoardBreakout-rescue:GND-power #PWR0105
+U 1 1 5F653556
+P 7050 4350
+F 0 "#PWR0105" H 7050 4100 50  0001 C CNN
+F 1 "GND" H 7055 4177 50  0000 C CNN
+F 2 "" H 7050 4350 50  0001 C CNN
+F 3 "" H 7050 4350 50  0001 C CNN
+	1    7050 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L STMF4_BreadBoardBreakout-rescue:GND-power #PWR0106
+U 1 1 5F6559D3
+P 8150 4350
+F 0 "#PWR0106" H 8150 4100 50  0001 C CNN
+F 1 "GND" H 8155 4177 50  0000 C CNN
+F 2 "" H 8150 4350 50  0001 C CNN
+F 3 "" H 8150 4350 50  0001 C CNN
+	1    8150 4350
+	1    0    0    -1  
+$EndComp
+Text GLabel 7400 5400 1    50   Input ~ 0
+I2C3_SDA
+Text GLabel 7500 5400 1    50   Input ~ 0
+HS
+Text GLabel 7600 5400 1    50   Input ~ 0
+MCLK
+Text GLabel 7700 5400 1    50   Input ~ 0
+D6
+Text GLabel 7800 5400 1    50   Input ~ 0
+D4
+Text GLabel 7900 5400 1    50   Input ~ 0
+D2
+Text GLabel 8000 5400 1    50   Input ~ 0
+D0
+Text GLabel 8100 5400 1    50   Input ~ 0
+PWDN
+Text GLabel 8100 5900 3    50   Input ~ 0
+RESET
+Text GLabel 8000 5900 3    50   Input ~ 0
+D1
+Text GLabel 7900 5900 3    50   Input ~ 0
+D3
+Text GLabel 7800 5900 3    50   Input ~ 0
+D5
+Text GLabel 7700 5900 3    50   Input ~ 0
+D7
+Text GLabel 7600 5900 3    50   Input ~ 0
+PCLK
+Text GLabel 7500 5900 3    50   Input ~ 0
+VS
+Text GLabel 7400 5900 3    50   Input ~ 0
+I2C3_SCL
+$Comp
+L STMF4_BreadBoardBreakout-rescue:GND-power #PWR0107
+U 1 1 5F5027F2
+P 7200 5950
+F 0 "#PWR0107" H 7200 5700 50  0001 C CNN
+F 1 "GND" H 7205 5777 50  0000 C CNN
+F 2 "" H 7200 5950 50  0001 C CNN
+F 3 "" H 7200 5950 50  0001 C CNN
+	1    7200 5950
+	-1   0    0    -1  
+$EndComp
+$Comp
+L STMF4_BreadBoardBreakout-rescue:+3.3V-power #PWR0108
+U 1 1 5F505817
+P 7250 5300
+F 0 "#PWR0108" H 7250 5150 50  0001 C CNN
+F 1 "+3.3V" H 7265 5473 50  0000 C CNN
+F 2 "" H 7250 5300 50  0001 C CNN
+F 3 "" H 7250 5300 50  0001 C CNN
+	1    7250 5300
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	7250 5300 7250 5400
+Wire Wire Line
+	7250 5400 7300 5400
+Wire Wire Line
+	7200 5950 7300 5950
+Wire Wire Line
+	7300 5950 7300 5900
 $EndSCHEMATC
