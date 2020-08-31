@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name STMF4_BreadBoardBreakout-rescue)(type Legacy)(uri ${KIPRJMOD}/STMF4_BreadBoardBreakout-rescue.lib)(options "")(descr ""))
+)

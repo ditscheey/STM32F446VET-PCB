@@ -52,11 +52,11 @@ X Pin_9 9 -200 0 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# STMF4_BreadBoardBreakout-rescue_+3.3V-power
+# STMF4_BreadBoardBreakout-rescue_+3.3V-power-STMF4_BreadBoardBreakout-rescue
 #
-DEF STMF4_BreadBoardBreakout-rescue_+3.3V-power #PWR 0 0 Y Y 1 F P
+DEF STMF4_BreadBoardBreakout-rescue_+3.3V-power-STMF4_BreadBoardBreakout-rescue #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "STMF4_BreadBoardBreakout-rescue_+3.3V-power" 0 140 50 H V C CNN
+F1 "STMF4_BreadBoardBreakout-rescue_+3.3V-power-STMF4_BreadBoardBreakout-rescue" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -67,11 +67,11 @@ X +3V3 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# STMF4_BreadBoardBreakout-rescue_+3.3VA-power
+# STMF4_BreadBoardBreakout-rescue_+3.3VA-power-STMF4_BreadBoardBreakout-rescue
 #
-DEF STMF4_BreadBoardBreakout-rescue_+3.3VA-power #PWR 0 0 Y Y 1 F P
+DEF STMF4_BreadBoardBreakout-rescue_+3.3VA-power-STMF4_BreadBoardBreakout-rescue #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "STMF4_BreadBoardBreakout-rescue_+3.3VA-power" 0 140 50 H V C CNN
+F1 "STMF4_BreadBoardBreakout-rescue_+3.3VA-power-STMF4_BreadBoardBreakout-rescue" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -82,11 +82,11 @@ X +3.3VA 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# STMF4_BreadBoardBreakout-rescue_+5V-power
+# STMF4_BreadBoardBreakout-rescue_+5V-power-STMF4_BreadBoardBreakout-rescue
 #
-DEF STMF4_BreadBoardBreakout-rescue_+5V-power #PWR 0 0 Y Y 1 F P
+DEF STMF4_BreadBoardBreakout-rescue_+5V-power-STMF4_BreadBoardBreakout-rescue #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "STMF4_BreadBoardBreakout-rescue_+5V-power" 0 140 50 H V C CNN
+F1 "STMF4_BreadBoardBreakout-rescue_+5V-power-STMF4_BreadBoardBreakout-rescue" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -97,11 +97,11 @@ X +5V 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# STMF4_BreadBoardBreakout-rescue_C_Small-Device
+# STMF4_BreadBoardBreakout-rescue_C_Small-Device-STMF4_BreadBoardBreakout-rescue
 #
-DEF STMF4_BreadBoardBreakout-rescue_C_Small-Device C 0 10 N N 1 F N
+DEF STMF4_BreadBoardBreakout-rescue_C_Small-Device-STMF4_BreadBoardBreakout-rescue C 0 10 N N 1 F N
 F0 "C" 10 70 50 H V L CNN
-F1 "STMF4_BreadBoardBreakout-rescue_C_Small-Device" 10 -80 50 H V L CNN
+F1 "STMF4_BreadBoardBreakout-rescue_C_Small-Device-STMF4_BreadBoardBreakout-rescue" 10 -80 50 H V L CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -115,11 +115,11 @@ X ~ 2 0 -100 80 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# STMF4_BreadBoardBreakout-rescue_Conn_01x03_Male-Connector
+# STMF4_BreadBoardBreakout-rescue_Conn_01x03_Male-Connector-STMF4_BreadBoardBreakout-rescue
 #
-DEF STMF4_BreadBoardBreakout-rescue_Conn_01x03_Male-Connector J 0 40 Y N 1 F N
+DEF STMF4_BreadBoardBreakout-rescue_Conn_01x03_Male-Connector-STMF4_BreadBoardBreakout-rescue J 0 40 Y N 1 F N
 F0 "J" 0 200 50 H V C CNN
-F1 "STMF4_BreadBoardBreakout-rescue_Conn_01x03_Male-Connector" 0 -200 50 H V C CNN
+F1 "STMF4_BreadBoardBreakout-rescue_Conn_01x03_Male-Connector-STMF4_BreadBoardBreakout-rescue" 0 -200 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -138,11 +138,11 @@ X Pin_3 3 200 -100 150 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# STMF4_BreadBoardBreakout-rescue_Conn_01x04_Male-Connector
+# STMF4_BreadBoardBreakout-rescue_Conn_01x04_Male-Connector-STMF4_BreadBoardBreakout-rescue
 #
-DEF STMF4_BreadBoardBreakout-rescue_Conn_01x04_Male-Connector J 0 40 Y N 1 F N
+DEF STMF4_BreadBoardBreakout-rescue_Conn_01x04_Male-Connector-STMF4_BreadBoardBreakout-rescue J 0 40 Y N 1 F N
 F0 "J" 0 200 50 H V C CNN
-F1 "STMF4_BreadBoardBreakout-rescue_Conn_01x04_Male-Connector" 0 -300 50 H V C CNN
+F1 "STMF4_BreadBoardBreakout-rescue_Conn_01x04_Male-Connector-STMF4_BreadBoardBreakout-rescue" 0 -300 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -164,11 +164,11 @@ X Pin_4 4 200 -200 150 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# STMF4_BreadBoardBreakout-rescue_Conn_01x06_Female-Connector
+# STMF4_BreadBoardBreakout-rescue_Conn_01x06_Female-Connector-STMF4_BreadBoardBreakout-rescue
 #
-DEF STMF4_BreadBoardBreakout-rescue_Conn_01x06_Female-Connector J 0 40 Y N 1 F N
+DEF STMF4_BreadBoardBreakout-rescue_Conn_01x06_Female-Connector-STMF4_BreadBoardBreakout-rescue J 0 40 Y N 1 F N
 F0 "J" 0 300 50 H V C CNN
-F1 "STMF4_BreadBoardBreakout-rescue_Conn_01x06_Female-Connector" 0 -400 50 H V C CNN
+F1 "STMF4_BreadBoardBreakout-rescue_Conn_01x06_Female-Connector-STMF4_BreadBoardBreakout-rescue" 0 -400 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -196,11 +196,11 @@ X Pin_6 6 -200 -300 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# STMF4_BreadBoardBreakout-rescue_Conn_01x06_Male-Connector
+# STMF4_BreadBoardBreakout-rescue_Conn_01x06_Male-Connector-STMF4_BreadBoardBreakout-rescue
 #
-DEF STMF4_BreadBoardBreakout-rescue_Conn_01x06_Male-Connector J 0 40 Y N 1 F N
+DEF STMF4_BreadBoardBreakout-rescue_Conn_01x06_Male-Connector-STMF4_BreadBoardBreakout-rescue J 0 40 Y N 1 F N
 F0 "J" 0 300 50 H V C CNN
-F1 "STMF4_BreadBoardBreakout-rescue_Conn_01x06_Male-Connector" 0 -400 50 H V C CNN
+F1 "STMF4_BreadBoardBreakout-rescue_Conn_01x06_Male-Connector-STMF4_BreadBoardBreakout-rescue" 0 -400 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -228,11 +228,11 @@ X Pin_6 6 200 -300 150 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# STMF4_BreadBoardBreakout-rescue_Conn_01x16_Male-Connector
+# STMF4_BreadBoardBreakout-rescue_Conn_01x16_Male-Connector-STMF4_BreadBoardBreakout-rescue
 #
-DEF STMF4_BreadBoardBreakout-rescue_Conn_01x16_Male-Connector J 0 40 Y N 1 F N
+DEF STMF4_BreadBoardBreakout-rescue_Conn_01x16_Male-Connector-STMF4_BreadBoardBreakout-rescue J 0 40 Y N 1 F N
 F0 "J" 0 800 50 H V C CNN
-F1 "STMF4_BreadBoardBreakout-rescue_Conn_01x16_Male-Connector" 0 -900 50 H V C CNN
+F1 "STMF4_BreadBoardBreakout-rescue_Conn_01x16_Male-Connector-STMF4_BreadBoardBreakout-rescue" 0 -900 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -290,11 +290,11 @@ X Pin_9 9 200 -100 150 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# STMF4_BreadBoardBreakout-rescue_Crystal-Device
+# STMF4_BreadBoardBreakout-rescue_Crystal-Device-STMF4_BreadBoardBreakout-rescue
 #
-DEF STMF4_BreadBoardBreakout-rescue_Crystal-Device Y 0 40 N N 1 F N
+DEF STMF4_BreadBoardBreakout-rescue_Crystal-Device-STMF4_BreadBoardBreakout-rescue Y 0 40 N N 1 F N
 F0 "Y" 0 150 50 H V C CNN
-F1 "STMF4_BreadBoardBreakout-rescue_Crystal-Device" 0 -150 50 H V C CNN
+F1 "STMF4_BreadBoardBreakout-rescue_Crystal-Device-STMF4_BreadBoardBreakout-rescue" 0 -150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -311,11 +311,11 @@ X 2 2 150 0 50 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# STMF4_BreadBoardBreakout-rescue_D_Schottky-Device
+# STMF4_BreadBoardBreakout-rescue_D_Schottky-Device-STMF4_BreadBoardBreakout-rescue
 #
-DEF STMF4_BreadBoardBreakout-rescue_D_Schottky-Device D 0 40 N N 1 F N
+DEF STMF4_BreadBoardBreakout-rescue_D_Schottky-Device-STMF4_BreadBoardBreakout-rescue D 0 40 N N 1 F N
 F0 "D" 0 100 50 H V C CNN
-F1 "STMF4_BreadBoardBreakout-rescue_D_Schottky-Device" 0 -100 50 H V C CNN
+F1 "STMF4_BreadBoardBreakout-rescue_D_Schottky-Device-STMF4_BreadBoardBreakout-rescue" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -333,11 +333,11 @@ X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# STMF4_BreadBoardBreakout-rescue_Fuse-Device
+# STMF4_BreadBoardBreakout-rescue_Fuse-Device-STMF4_BreadBoardBreakout-rescue
 #
-DEF STMF4_BreadBoardBreakout-rescue_Fuse-Device F 0 0 N Y 1 F N
+DEF STMF4_BreadBoardBreakout-rescue_Fuse-Device-STMF4_BreadBoardBreakout-rescue F 0 0 N Y 1 F N
 F0 "F" 80 0 50 V V C CNN
-F1 "STMF4_BreadBoardBreakout-rescue_Fuse-Device" -75 0 50 V V C CNN
+F1 "STMF4_BreadBoardBreakout-rescue_Fuse-Device-STMF4_BreadBoardBreakout-rescue" -75 0 50 V V C CNN
 F2 "" -70 0 50 V I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -351,11 +351,11 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# STMF4_BreadBoardBreakout-rescue_GND-power
+# STMF4_BreadBoardBreakout-rescue_GND-power-STMF4_BreadBoardBreakout-rescue
 #
-DEF STMF4_BreadBoardBreakout-rescue_GND-power #PWR 0 0 Y Y 1 F P
+DEF STMF4_BreadBoardBreakout-rescue_GND-power-STMF4_BreadBoardBreakout-rescue #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -250 50 H I C CNN
-F1 "STMF4_BreadBoardBreakout-rescue_GND-power" 0 -150 50 H V C CNN
+F1 "STMF4_BreadBoardBreakout-rescue_GND-power-STMF4_BreadBoardBreakout-rescue" 0 -150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -364,11 +364,11 @@ X GND 1 0 0 0 D 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# STMF4_BreadBoardBreakout-rescue_LED_Small-Device
+# STMF4_BreadBoardBreakout-rescue_LED_Small-Device-STMF4_BreadBoardBreakout-rescue
 #
-DEF STMF4_BreadBoardBreakout-rescue_LED_Small-Device D 0 10 N N 1 F N
+DEF STMF4_BreadBoardBreakout-rescue_LED_Small-Device-STMF4_BreadBoardBreakout-rescue D 0 10 N N 1 F N
 F0 "D" -50 125 50 H V L CNN
-F1 "STMF4_BreadBoardBreakout-rescue_LED_Small-Device" -175 -100 50 H V L CNN
+F1 "STMF4_BreadBoardBreakout-rescue_LED_Small-Device-STMF4_BreadBoardBreakout-rescue" -175 -100 50 H V L CNN
 F2 "" 0 0 50 V I C CNN
 F3 "" 0 0 50 V I C CNN
 $FPLIST
@@ -387,11 +387,11 @@ X A 2 100 0 70 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# STMF4_BreadBoardBreakout-rescue_R_Small-Device
+# STMF4_BreadBoardBreakout-rescue_R_Small-Device-STMF4_BreadBoardBreakout-rescue
 #
-DEF STMF4_BreadBoardBreakout-rescue_R_Small-Device R 0 10 N N 1 F N
+DEF STMF4_BreadBoardBreakout-rescue_R_Small-Device-STMF4_BreadBoardBreakout-rescue R 0 10 N N 1 F N
 F0 "R" 30 20 50 H V L CNN
-F1 "STMF4_BreadBoardBreakout-rescue_R_Small-Device" 30 -40 50 H V L CNN
+F1 "STMF4_BreadBoardBreakout-rescue_R_Small-Device-STMF4_BreadBoardBreakout-rescue" 30 -40 50 H V L CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -404,11 +404,11 @@ X ~ 2 0 -100 30 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# STMF4_BreadBoardBreakout-rescue_SGM2019-ADJYN5G-TR-SGM2019
+# STMF4_BreadBoardBreakout-rescue_SGM2019-ADJYN5G-TR-SGM2019-STMF4_BreadBoardBreakout-rescue
 #
-DEF STMF4_BreadBoardBreakout-rescue_SGM2019-ADJYN5G-TR-SGM2019 IC 0 30 Y Y 1 F N
+DEF STMF4_BreadBoardBreakout-rescue_SGM2019-ADJYN5G-TR-SGM2019-STMF4_BreadBoardBreakout-rescue IC 0 30 Y Y 1 F N
 F0 "IC" 500 250 50 H V L CNN
-F1 "STMF4_BreadBoardBreakout-rescue_SGM2019-ADJYN5G-TR-SGM2019" 150 150 50 H V L CNN
+F1 "STMF4_BreadBoardBreakout-rescue_SGM2019-ADJYN5G-TR-SGM2019-STMF4_BreadBoardBreakout-rescue" 150 150 50 H V L CNN
 F2 "SOT95P280X125-5N" 950 100 50 H I L CNN
 F3 "http://data.datasheetlib.com/pdf1/64/32/643295/sg-micro-sgm2019-0-9yc5g-tr_6b039c206a.pdf" 950 0 50 H I L CNN
 F4 "Low Power, Low Dropout, RF - Linear Regulators" 950 -100 50 H I L CNN "Description"
@@ -427,11 +427,11 @@ X OUT 5 1100 0 200 L 50 50 0 0 P
 ENDDRAW
 ENDDEF
 #
-# STMF4_BreadBoardBreakout-rescue_STM32F446VETx-MCU_ST_STM32F4
+# STMF4_BreadBoardBreakout-rescue_STM32F446VETx-MCU_ST_STM32F4-STMF4_BreadBoardBreakout-rescue
 #
-DEF STMF4_BreadBoardBreakout-rescue_STM32F446VETx-MCU_ST_STM32F4 U 0 20 Y Y 1 F N
+DEF STMF4_BreadBoardBreakout-rescue_STM32F446VETx-MCU_ST_STM32F4-STMF4_BreadBoardBreakout-rescue U 0 20 Y Y 1 F N
 F0 "U" -700 2550 50 H V L CNN
-F1 "STMF4_BreadBoardBreakout-rescue_STM32F446VETx-MCU_ST_STM32F4" 500 2550 50 H V L CNN
+F1 "STMF4_BreadBoardBreakout-rescue_STM32F446VETx-MCU_ST_STM32F4-STMF4_BreadBoardBreakout-rescue" 500 2550 50 H V L CNN
 F2 "Package_QFP:LQFP-100_14x14mm_P0.5mm" -700 -2500 50 H I R CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -542,11 +542,11 @@ X VSS 99 200 -2700 200 U 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
-# STMF4_BreadBoardBreakout-rescue_USB_B_Micro-Connector
+# STMF4_BreadBoardBreakout-rescue_USB_B_Micro-Connector-STMF4_BreadBoardBreakout-rescue
 #
-DEF STMF4_BreadBoardBreakout-rescue_USB_B_Micro-Connector J 0 40 Y Y 1 F N
+DEF STMF4_BreadBoardBreakout-rescue_USB_B_Micro-Connector-STMF4_BreadBoardBreakout-rescue J 0 40 Y Y 1 F N
 F0 "J" -200 450 50 H V L CNN
-F1 "STMF4_BreadBoardBreakout-rescue_USB_B_Micro-Connector" -200 350 50 H V L CNN
+F1 "STMF4_BreadBoardBreakout-rescue_USB_B_Micro-Connector-STMF4_BreadBoardBreakout-rescue" -200 350 50 H V L CNN
 F2 "" 150 -50 50 H I C CNN
 F3 "" 150 -50 50 H I C CNN
 $FPLIST
