@@ -1,4 +1,4 @@
-update=31.08.2020 19:14:24
+update=31.08.2020 19:35:39
 version=1
 last_client=kicad
 [general]
@@ -25,7 +25,7 @@ ERC_TestSimilarLabels=1
 [pcbnew]
 version=1
 PageLayoutDescrFile=
-LastNetListRead=STMF4_BreadBoardBreakout_GPIO_Connectors.net
+LastNetListRead=STMF4_BreadBoardBreakout.net
 CopperLayerCount=2
 BoardThickness=1.6
 AllowMicroVias=0
